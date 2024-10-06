@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="fa">
+    <head>
+        <title>وبلاگ لاراول</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/dist/css/main.min.css">
+        <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/x-icon">
+    </head>
+    
+    <body>
+        <section class="px-4 md:px-6 pb-6 md:pb-8">
+            <!-- Navigation -->
+            <nav class="flex justify-between items-center w-full h-20">
+                <div>
+                    <a href="/">
+                        <img class="w-24 md:w-[104px] h-auto md:h-10" src="./assets/images/header-logo.svg" alt="logo">
+                    </a>
+                </div>
+    
+                <div class="mt-0">
+                    <a href="/" class="text-xs font-bold uppercase">صفحه اصلی</a>
+    
+                    <a href="#" class="bg-blue-500 mr-2 md:mr-4 rounded-full text-xs font-semibold text-white uppercase py-2 md:py-3 px-4 md:px-6">
+                        ورود / ثبت نام
+                    </a>
+                </div>
+            </nav>
+    
+            <!-- Header -->
+            <header class="max-w-xl mx-auto mt-20 text-center">
+                <h1 class="text-4xl">
+                    آخرین <strong class="text-blue-500">اخبار لاراول</strong> از ابتدا
+                </h1>
+    
+                <h2 class="inline-flex gap-1 mt-2"><img class="w-7 h-7" src="./assets/images/logo.svg" alt="faraz"> توسط شرکت لاراول</h2>
+    
+                <p class="text-sm mt-14">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+                </p>
+    
+                <!-- Filter -->
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mt-8">
+                    <!-- Category -->
+                    <div class="relative flex lg:inline-flex items-center bg-gray-100 rounded-xl">
+                        <select class="flex-1 appearance-none bg-transparent focus:outline-none py-2 pr-3 pl-8 text-sm font-semibold">
+                            <option value="category" disabled selected>دسته بندی</option>
+                            <option value="personal">شخصی</option>
+                            <option value="business">بیزینس</option>
+                        </select>
+    
+                        <svg class="w-6 h-6 transform -rotate-90 absolute left-1 pointer-events-none" viewBox="0 0 22 22">
+                            <g fill="none" fill-rule="evenodd">
+                                <path stroke="#000" stroke-opacity=".012" stroke-width=".5" d="M21 1v20.16H.84V1z">
+                                </path>
+                                <path fill="#222"
+                                      d="M13.854 7.224l-3.847 3.856 3.847 3.856-1.184 1.184-5.04-5.04 5.04-5.04z"></path>
+                            </g>
+                        </svg>
+                    </div>
+    
+                    <!-- Other Filters -->
+                    <div class="relative flex lg:inline-flex items-center bg-gray-100 rounded-xl">
+                        <select class="flex-1 appearance-none bg-transparent focus:outline-none py-2 pr-3 pl-8 text-sm font-semibold">
+                            <option value="category" disabled selected>فیلترهای دیگر</option>
+                            <option value="filter-1">فیلتر 1</option>
+                            <option value="filter-2">فیلتر 2</option>
+                        </select>
+    
+                        <svg class="w-6 h-6 transform -rotate-90 absolute left-1 pointer-events-none" viewBox="0 0 22 22">
+                            <g fill="none" fill-rule="evenodd">
+                                <path stroke="#000" stroke-opacity=".012" stroke-width=".5" d="M21 1v20.16H.84V1z">
+                                </path>
+                                <path fill="#222"
+                                      d="M13.854 7.224l-3.847 3.856 3.847 3.856-1.184 1.184-5.04-5.04 5.04-5.04z"></path>
+                            </g>
+                        </svg>
+                    </div>
+    
+                    <!-- Search -->
+                    <div class="relative flex lg:inline-flex items-center bg-gray-100 rounded-xl px-3 py-2">
+                        <form method="GET" action="#">
+                            <input type="text" name="search" placeholder="جستجو..."
+                                   class="bg-transparent focus:outline-none placeholder-black font-semibold text-sm">
+                        </form>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main -->
+            <main class="max-w-6xl mx-auto mt-6 lg:mt-20 space-y-6">
+
+                <!-- Big Article -->
+                <article class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                    <div class="py-6 px-5 lg:flex">
+                        <div class="flex-1 lg:ml-8">
+                            <img src="./assets/images/image-1.png" alt="post-image" class="w-full rounded-xl">
+                        </div>
+    
+                        <div class="flex-1 flex flex-col gap-2">
+                            <header class="">
+                                <div class="flex items-center gap-2 mt-8 lg:mt-0">
+                                    <a href="#"
+                                       class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
+                                       style="font-size: 10px">تکنیک</a>
+    
+                                    <a href="#"
+                                       class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
+                                       style="font-size: 10px">بروزرسانی</a>
+                                </div>
+    
+                                <div class="mt-4">
+                                    <h2 class="text-2xl md:text-3xl">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده است.
+                                    </h2>
+    
+                                    <span class="mt-2 block text-gray-400 text-xs">
+                                        منتشر شده در یک روز اخیر
+                                    </span>
+                                </div>
+                            </header>
+    
+                            <div class="text-sm text-justify mt-2">
+                                <p>
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                </p>
+    
+                                <p class="mt-4">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                                </p>
+                            </div>
+    
+                            <footer class="flex justify-between items-center mt-4 md:mt-auto">
+                                <div class="flex items-center gap-1 text-[13px] md:text-sm">
+                                    <img class="w-10 md:w-12 h-10 md:h-12" src="./assets/images/logo.svg" alt="logo">
+                                    <div class="flex flex-col">
+                                        <h5 class="font-bold">لاراول</h5>
+                                        <h6>شعار لاراول</h6>
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <a href="#" class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
+                                        خواندن بیشتر
+                                    </a>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </article>
+    
+                <!-- Medium Articles -->
+                <div class="lg:grid lg:grid-cols-2">
+                    <article
+                        class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                        <div class="py-6 px-5">
+                            <div>
+                                <img src="./assets/images/image-1.png" alt="post-image" class="rounded-xl">
+                            </div>
+    
+                            <div class="mt-8 flex flex-col justify-between">
+                                <header>
+                                    <div class="flex items-center gap-2">
+                                        <a href="#"
+                                           class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">تکنیک</a>
+        
+                                        <a href="#"
+                                           class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">بروزرسانی</a>
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <h2 class="text-2xl md:text-3xl">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده است.
+                                        </h2>
+    
+                                        <span class="mt-2 block text-gray-400 text-xs">
+                                            منتشر شده در یک روز اخیر
+                                        </span>
+                                    </div>
+                                </header>
+    
+                                <div class="text-sm text-justify mt-4">
+                                    <p>
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                    </p>
+    
+                                    <p class="mt-4">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                                    </p>
+                                </div>
+    
+                                <footer class="flex justify-between items-center mt-4 md:mt-8">
+                                    <div class="flex items-center gap-1 text-[13px] md:text-sm">
+                                        <img class="w-10 md:w-12 h-10 md:h-12" src="./assets/images/logo.svg" alt="logo">
+                                        <div class="flex flex-col">
+                                            <h5 class="font-bold">لاراول</h5>
+                                            <h6>شعار لاراول</h6>
+                                        </div>
+                                    </div>
+        
+                                    <div>
+                                        <a href="#" class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
+                                            خواندن بیشتر
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article
+                        class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                        <div class="py-6 px-5">
+                            <div>
+                                <img src="./assets/images/image-1.png" alt="post-image" class="rounded-xl">
+                            </div>
+    
+                            <div class="mt-8 flex flex-col justify-between">
+                                <header>
+                                    <div class="flex items-center gap-2">
+                                        <a href="#"
+                                           class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">تکنیک</a>
+        
+                                        <a href="#"
+                                           class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">بروزرسانی</a>
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <h2 class="text-2xl md:text-3xl">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده است.
+                                        </h2>
+    
+                                        <span class="mt-2 block text-gray-400 text-xs">
+                                            منتشر شده در یک روز اخیر
+                                        </span>
+                                    </div>
+                                </header>
+    
+                                <div class="text-sm text-justify mt-4">
+                                    <p>
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                    </p>
+    
+                                    <p class="mt-4">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                                    </p>
+                                </div>
+    
+                                <footer class="flex justify-between items-center mt-4 md:mt-8">
+                                    <div class="flex items-center gap-1 text-[13px] md:text-sm">
+                                        <img class="w-10 md:w-12 h-10 md:h-12" src="./assets/images/logo.svg" alt="logo">
+                                        <div class="flex flex-col">
+                                            <h5 class="font-bold">لاراول</h5>
+                                            <h6>شعار لاراول</h6>
+                                        </div>
+                                    </div>
+        
+                                    <div>
+                                        <a href="#" class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
+                                            خواندن بیشتر
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+    
+                <!-- Small Articles -->
+                <div class="lg:grid lg:grid-cols-3">
+                    <article
+                        class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                        <div class="py-6 px-5">
+                            <div>
+                                <img src="./assets/images/image-2.png" alt="post-image" class="rounded-xl">
+                            </div>
+    
+                            <div class="mt-8 flex flex-col justify-between">
+                                <header>
+                                    <div class="flex items-center gap-2">
+                                        <a href="#"
+                                           class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">تکنیک</a>
+        
+                                        <a href="#"
+                                           class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">بروزرسانی</a>
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <h2 class="text-2xl md:text-3xl">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده است.
+                                        </h2>
+    
+                                        <span class="mt-2 block text-gray-400 text-xs">
+                                            منتشر شده در یک روز اخیر
+                                        </span>
+                                    </div>
+                                </header>
+    
+                                <div class="text-sm text-justify mt-4">
+                                    <p>
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                    </p>
+    
+                                    <p class="mt-4">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                                    </p>
+                                </div>
+    
+                                <footer class="flex justify-between items-center mt-4 md:mt-8">
+                                    <div class="flex items-center gap-1 text-[13px] md:text-sm">
+                                        <img class="w-10 md:w-12 h-10 md:h-12" src="./assets/images/logo.svg" alt="logo">
+                                        <div class="flex flex-col">
+                                            <h5 class="font-bold">لاراول</h5>
+                                            <h6>شعار لاراول</h6>
+                                        </div>
+                                    </div>
+        
+                                    <div>
+                                        <a href="#" class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
+                                            خواندن بیشتر
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article
+                        class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                        <div class="py-6 px-5">
+                            <div>
+                                <img src="./assets/images/image-2.png" alt="post-image" class="rounded-xl">
+                            </div>
+    
+                            <div class="mt-8 flex flex-col justify-between">
+                                <header>
+                                    <div class="flex items-center gap-2">
+                                        <a href="#"
+                                           class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">تکنیک</a>
+        
+                                        <a href="#"
+                                           class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">بروزرسانی</a>
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <h2 class="text-2xl md:text-3xl">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده است.
+                                        </h2>
+    
+                                        <span class="mt-2 block text-gray-400 text-xs">
+                                            منتشر شده در یک روز اخیر
+                                        </span>
+                                    </div>
+                                </header>
+    
+                                <div class="text-sm text-justify mt-4">
+                                    <p>
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                    </p>
+    
+                                    <p class="mt-4">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                                    </p>
+                                </div>
+    
+                                <footer class="flex justify-between items-center mt-4 md:mt-8">
+                                    <div class="flex items-center gap-1 text-[13px] md:text-sm">
+                                        <img class="w-10 md:w-12 h-10 md:h-12" src="./assets/images/logo.svg" alt="logo">
+                                        <div class="flex flex-col">
+                                            <h5 class="font-bold">لاراول</h5>
+                                            <h6>شعار لاراول</h6>
+                                        </div>
+                                    </div>
+        
+                                    <div>
+                                        <a href="#" class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
+                                            خواندن بیشتر
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+    
+                    <article
+                        class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
+                        <div class="py-6 px-5">
+                            <div>
+                                <img src="./assets/images/image-2.png" alt="post-image" class="rounded-xl">
+                            </div>
+    
+                            <div class="mt-8 flex flex-col justify-between">
+                                <header>
+                                    <div class="flex items-center gap-2">
+                                        <a href="#"
+                                           class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">تکنیک</a>
+        
+                                        <a href="#"
+                                           class="px-3 py-1 border border-red-300 rounded-full text-red-300 text-xs uppercase font-semibold"
+                                           style="font-size: 10px">بروزرسانی</a>
+                                    </div>
+    
+                                    <div class="mt-4">
+                                        <h2 class="text-2xl md:text-3xl">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده است.
+                                        </h2>
+    
+                                        <span class="mt-2 block text-gray-400 text-xs">
+                                            منتشر شده در یک روز اخیر
+                                        </span>
+                                    </div>
+                                </header>
+    
+                                <div class="text-sm text-justify mt-4">
+                                    <p>
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                                    </p>
+    
+                                    <p class="mt-4">
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.
+                                    </p>
+                                </div>
+    
+                                <footer class="flex justify-between items-center mt-4 md:mt-8">
+                                    <div class="flex items-center gap-1 text-[13px] md:text-sm">
+                                        <img class="w-10 md:w-12 h-10 md:h-12" src="./assets/images/logo.svg" alt="logo">
+                                        <div class="flex flex-col">
+                                            <h5 class="font-bold">لاراول</h5>
+                                            <h6>شعار لاراول</h6>
+                                        </div>
+                                    </div>
+        
+                                    <div>
+                                        <a href="#" class="transition-colors duration-300 text-xs font-semibold bg-gray-200 hover:bg-gray-300 rounded-full py-2 px-8">
+                                            خواندن بیشتر
+                                        </a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </main>
+    
+            <!-- Footer -->
+            <footer class="bg-gray-100 border border-black border-opacity-5 rounded-xl text-center py-10 md:py-16 px-8 md:px-10 mt-16">
+                <img src="./assets/images/logo.svg" alt="logo" class="w-24 h-24 mx-auto">
+                <h5 class="text-xl md:text-3xl leading-normal font-semibold mt-2">با آخرین پست ها در ارتباط باشید</h5>
+                <p class="text-sm mt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم.</p>
+                <div class="mt-10">
+                    <div class="relative inline-block mx-auto lg:bg-gray-200 rounded-full">
+                        <form method="POST" action="#" class="lg:flex text-sm">
+                            <div class="lg:py-3 lg:px-5 flex items-center">
+                                <label for="email" class="hidden lg:inline-block">
+                                    <img src="./assets/images/mailbox-icon.svg" alt="newsletter">
+                                </label>
+                                <input id="email" type="text" placeholder="آدرس ایمیل" class="lg:bg-transparent py-2 lg:py-0 px-4 lg:pr-2 lg:pl-0 focus-within:outline-none rounded-3xl">
+                            </div>
+                            <button type="submit" class="transition-colors duration-300 bg-blue-500 hover:bg-blue-600 mt-4 lg:mt-0 rounded-full text-xs font-semibold text-white uppercase py-3 px-8">
+                                ثبت نام
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </footer>
+        </section>
+    </body>    
+</html>
